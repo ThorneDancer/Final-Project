@@ -1,3 +1,19 @@
 /* ================================
         Footer css
 ================================ */
+footer{
+    background-color: $darkPurple;
+    color: $mediumPink;
+    text-align: center;
+    padding: 20px 0 10px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: rem-calc(12);
+    font-weight: 400;
+
+    div{
+        margin: 0 100px 20px;
+        font-size: rem-calc(24);
+        display: flex;
+        justify-content: space-between;
+    }
+}

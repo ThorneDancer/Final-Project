@@ -375,6 +375,20 @@ header {
 /* ================================
         Footer css
 ================================ */
+footer {
+  background-color: #361B3B;
+  color: #91499C;
+  text-align: center;
+  padding: 20px 0 10px;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 400; }
+  footer div {
+    margin: 0 100px 20px;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between; }
+
 /* ================================
         Logo css
 ================================ */
