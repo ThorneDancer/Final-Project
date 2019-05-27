@@ -19,6 +19,167 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/img/gallery/gallery-1.jpg": {
+		"ft": 16384,
+		"iS": 31258,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/gallery/gallery-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/gallery/gallery-2.jpg": {
+		"ft": 16384,
+		"iS": 29211,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/gallery/gallery-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/gallery/gallery-3.jpg": {
+		"ft": 16384,
+		"iS": 30768,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/gallery/gallery-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/gallery/gallery-4.jpg": {
+		"ft": 16384,
+		"iS": 29615,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/gallery/gallery-4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/gallery/gallery-5.jpg": {
+		"ft": 16384,
+		"iS": 30959,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/gallery/gallery-5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/gallery/gallery-6.jpg": {
+		"ft": 16384,
+		"iS": 50177,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/gallery/gallery-6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/info/alpha.jpg": {
+		"ft": 16384,
+		"iS": 37510,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/info/alpha.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/info/freeplay.jpg": {
+		"ft": 16384,
+		"iS": 33147,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/info/freeplay.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/info/miniatures.jpg": {
+		"ft": 16384,
+		"iS": 38365,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/info/miniatures.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/info/omegathon.jpg": {
+		"ft": 16384,
+		"iS": 26762,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/info/omegathon.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/img/map.jpg": {
+		"ft": 16384,
+		"iS": 136378,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/map.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/symbols/arrow.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/symbols/arrow.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/img/symbols/pink-x.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/symbols/pink-x.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/img/symbols/purple-x.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/symbols/purple-x.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -177,7 +338,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 576990683.37250197,
-	"displayValue": "template project ( dev )",
+	"displayValue": "Dev",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-wonka",
 	"iconImageWasSetByUser": 0

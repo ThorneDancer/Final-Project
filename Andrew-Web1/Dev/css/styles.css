@@ -11,6 +11,17 @@ html {
 /* ================================
         Base css
 ================================ */
+ul {
+  margin: 0;
+  padding: 0; }
+  ul li {
+    margin: 0;
+    padding: 0; }
+
+a {
+  text-decoration: none;
+  transition: 0.25s; }
+
 /* ================================
         Normalize css
 ================================ */
@@ -322,6 +333,10 @@ template {
 /* ================================
         Typography css
 ================================ */
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0; }
+
 /* ================================
         Buttons css
 ================================ */
@@ -334,6 +349,22 @@ template {
 /* ================================
         Header css
 ================================ */
+header {
+  background-color: #361B3B;
+  color: #91499C;
+  display: grid;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  grid-template-columns: 80% auto;
+  letter-spacing: 2px;
+  padding: 10px; }
+  header nav {
+    align-items: center;
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: flex-end; }
+
 /* ================================
         Footer css
 ================================ */

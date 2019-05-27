@@ -1,3 +1,21 @@
 /* ================================
         Header css
 ================================ */
+header {
+    background-color: $darkPurple;
+    color: $mediumPink;
+    display: grid;
+    font-family: 'Oswald', sans-serif;
+    font-size: rem-calc(20);
+    font-weight: 500;
+    grid-template-columns: 80% auto;
+    letter-spacing: 2px;
+    padding: 10px;
+
+    nav {
+        align-items: center;
+        display: flex;
+        font-size: rem-calc(24);
+        justify-content: flex-end;
+    }
+}

@@ -1,3 +1,17 @@
 /* ================================
         Base css
 ================================ */
+ul{
+    margin: 0;
+    padding: 0;
+
+    li{
+        margin: 0;
+        padding: 0;
+    }
+}
+
+a{
+    text-decoration: none;
+    transition: 0.25s;
+}
