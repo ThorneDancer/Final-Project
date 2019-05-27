@@ -22,6 +22,13 @@ a {
   text-decoration: none;
   transition: 0.25s; }
 
+.full-grid {
+  display: grid;
+  grid-template-areas: ". item .";
+  grid-template-columns: 10px auto 10px; }
+  .full-grid .full-grid-item {
+    grid-area: item; }
+
 /* ================================
         Normalize css
 ================================ */
@@ -368,3 +375,13 @@ header {
 /* ================================
         Footer css
 ================================ */
+/* ================================
+        Logo css
+================================ */
+#Logo {
+  background-image: url("../img/logo.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 180px;
+  margin: 10px; }
