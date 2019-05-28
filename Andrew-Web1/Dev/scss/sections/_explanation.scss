@@ -4,23 +4,28 @@
 #explanation{
     background-color: $lightGrey;
     font-family: 'Oswald', sans-serif;
+    display: grid;
+    grid-template-columns: 10px 68% auto;
 
     h1{
         font-size: rem-calc(20);
         font-weight: 500;
+        padding: 20px 0;
     }
 
     p{
         font-family: 'Rajdhani', sans-serif;
         font-weight: 300;
         font-size: rem-calc(12);
+        padding-bottom: 15px;
     }
 
     article{
          background-color: $white;
          border: 8px solid;
-         border-image-source: url(../img/symbols/pink-x.svg);
+         border-image-source: url("../img/symbols/pink-x.svg");
          border-image-outset: 0.5;
          border-image-repeat: round;
+         margin-bottom: 40px;
     }
 }
