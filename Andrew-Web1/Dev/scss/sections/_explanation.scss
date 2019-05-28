@@ -5,10 +5,10 @@
     background-color: $lightGrey;
     font-family: 'Oswald', sans-serif;
     display: grid;
-    grid-template-columns: 10px 68% auto;
+    grid-template-columns: 10px 85% auto;
 
     h1{
-        font-size: rem-calc(20);
+        font-size: rem-calc(25);
         font-weight: 500;
         padding: 20px 0;
     }
@@ -16,16 +16,21 @@
     p{
         font-family: 'Rajdhani', sans-serif;
         font-weight: 300;
-        font-size: rem-calc(12);
+        font-size: rem-calc(16);
         padding-bottom: 15px;
     }
 
-    article{
+    #aside{
          background-color: $white;
-         border: 8px solid;
-         border-image-source: url("../img/symbols/pink-x.svg");
-         border-image-outset: 0.5;
+         border: 10px solid;
+         border-image-source: url("../img/symbols/border-x.svg");
+         border-image-outset: 0.75;
+         border-image-slice: 68;
          border-image-repeat: round;
          margin-bottom: 40px;
+
+         p{
+             padding: 0;
+         }
     }
 }

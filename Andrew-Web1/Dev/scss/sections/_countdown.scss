@@ -26,18 +26,9 @@
         text-align: center;
 
         h1{
-            font-size: rem-calc(39);
+            font-size: rem-calc(37);
             font-weight: 500;
             padding-top: 15px;
-        }
-
-        ul{
-            li{
-                display: inline-block;
-                color: $darkPurple;
-                font-weight: 500;
-                font-size: rem-calc(10);
-            }
         }
     }
 }

@@ -170,6 +170,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/img/symbols/left-flavor.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/symbols/left-flavor.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/img/symbols/pink-x.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -185,6 +195,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/img/symbols/purple-x.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/img/symbols/right-flavor.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/symbols/right-flavor.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -354,6 +374,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/scss/sections/_enforcers.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/sections/_enforcers.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/scss/sections/_explanation.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -367,6 +400,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/scss/sections/_gallery.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/sections/_gallery.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/scss/sections/_hero.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -376,6 +422,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/sections/_hero.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/sections/_info.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/sections/_info.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

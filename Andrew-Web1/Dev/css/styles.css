@@ -397,9 +397,9 @@ footer {
   background-image: url("../img/logo.svg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 180px;
-  margin: 10px; }
+  background-size: contain;
+  height: 170px;
+  margin: 20px; }
 
 /* ================================
         Countdown css
@@ -420,14 +420,9 @@ footer {
   #countdown div {
     text-align: center; }
     #countdown div h1 {
-      font-size: 2.4375rem;
+      font-size: 2.3125rem;
       font-weight: 500;
       padding-top: 15px; }
-    #countdown div ul li {
-      display: inline-block;
-      color: #361B3B;
-      font-weight: 500;
-      font-size: 0.625rem; }
 
 /* ================================
         Hero css
@@ -451,8 +446,8 @@ footer {
     color: #fff;
     font-family: 'Oswald', sans-serif;
     font-weight: 500;
-    font-size: 1.375rem;
-    line-height: 1.125rem;
+    font-size: 2rem;
+    line-height: 1.5625rem;
     letter-spacing: 3px; }
   #hero div nav {
     display: flex;
@@ -461,7 +456,7 @@ footer {
       font-family: 'Orbitron', sans-serif;
       color: #000;
       font-weight: 400;
-      font-size: 0.625rem;
+      font-size: 1rem;
       padding: 5px 8px;
       background-color: #fff;
       margin-top: 10px; }
@@ -473,23 +468,26 @@ footer {
   background-color: #E7E7E7;
   font-family: 'Oswald', sans-serif;
   display: grid;
-  grid-template-columns: 10px 68% auto; }
+  grid-template-columns: 10px 85% auto; }
   #explanation h1 {
-    font-size: 1.25rem;
+    font-size: 1.5625rem;
     font-weight: 500;
     padding: 20px 0; }
   #explanation p {
     font-family: 'Rajdhani', sans-serif;
     font-weight: 300;
-    font-size: 0.75rem;
+    font-size: 1rem;
     padding-bottom: 15px; }
-  #explanation article {
+  #explanation #aside {
     background-color: #fff;
-    border: 8px solid;
-    border-image-source: url("../img/symbols/pink-x.svg");
-    border-image-outset: 0.5;
+    border: 10px solid;
+    border-image-source: url("../img/symbols/border-x.svg");
+    border-image-outset: 0.75;
+    border-image-slice: 68;
     border-image-repeat: round;
     margin-bottom: 40px; }
+    #explanation #aside p {
+      padding: 0; }
 
 /* ================================
         Aside css
@@ -517,3 +515,37 @@ footer {
       font-weight: 500; }
     #email div nav {
       padding-right: 20px; }
+
+/* ================================
+        Info css
+================================ */
+/* ================================
+        Enforcers css
+================================ */
+#enforcers {
+  display: grid;
+  grid-template-columns: 10px 83% auto; }
+  #enforcers h1 {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin: 30px 0 15px; }
+  #enforcers p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 20px; }
+
+#right-flavor {
+  background-image: url("../img/symbols/right-flavor.svg");
+  height: 50px;
+  background-repeat: no-repeat; }
+
+#left-flavor {
+  background-image: url("../img/symbols/left-flavor.svg");
+  height: 50px;
+  background-repeat: no-repeat; }
+
+/* ================================
+        Gallery css
+================================ */
