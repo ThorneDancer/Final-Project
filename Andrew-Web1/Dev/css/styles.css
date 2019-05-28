@@ -13,7 +13,8 @@ html {
 ================================ */
 ul {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  list-style: none; }
   ul li {
     margin: 0;
     padding: 0; }
@@ -399,3 +400,88 @@ footer {
   background-size: cover;
   height: 180px;
   margin: 10px; }
+
+/* ================================
+        Countdown css
+================================ */
+#countdown {
+  font-family: 'Orbitron', sans-serif; }
+  #countdown h2 {
+    font-size: 1.375rem;
+    font-weight: 400;
+    text-align: right;
+    color: #361B3B; }
+  #countdown h3 {
+    font-size: 1.375rem;
+    font-weight: 400;
+    text-align: right;
+    line-height: 0.625rem;
+    color: #91499C; }
+  #countdown div {
+    text-align: center; }
+    #countdown div h1 {
+      font-size: 1.6875rem;
+      font-weight: 500;
+      padding-top: 15px; }
+    #countdown div ul li {
+      display: inline-block;
+      color: #361B3B;
+      font-weight: 500;
+      font-size: 0.625rem; }
+
+/* ================================
+        Hero css
+================================ */
+#hero {
+  background-image: url("../img/map.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 240px; }
+  #hero #pink {
+    background-color: rgba(226, 175, 209, 0.8);
+    width: 100%;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  #hero div h1 {
+    text-align: center;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 1.375rem;
+    line-height: 1.125rem;
+    letter-spacing: 3px; }
+  #hero div nav {
+    display: flex;
+    justify-content: center; }
+    #hero div nav a {
+      font-family: 'Orbitron', sans-serif;
+      color: #000;
+      font-weight: 400;
+      font-size: 0.625rem;
+      padding: 5px 8px;
+      background-color: #fff;
+      margin-top: 10px; }
+
+/* ================================
+        Explanation css
+================================ */
+#explanation {
+  background-color: #E7E7E7;
+  font-family: 'Oswald', sans-serif; }
+  #explanation h1 {
+    font-size: 1.25rem;
+    font-weight: 500; }
+  #explanation p {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 300;
+    font-size: 0.75rem; }
+  #explanation article {
+    background-color: #fff;
+    border: 8px solid;
+    border-image-source: url(../img/symbols/pink-x.svg);
+    border-image-outset: 0.5;
+    border-image-repeat: round; }

@@ -1,0 +1,26 @@
+/* ================================
+        Explanation css
+================================ */
+#explanation{
+    background-color: $lightGrey;
+    font-family: 'Oswald', sans-serif;
+
+    h1{
+        font-size: rem-calc(20);
+        font-weight: 500;
+    }
+
+    p{
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: 300;
+        font-size: rem-calc(12);
+    }
+
+    article{
+         background-color: $white;
+         border: 8px solid;
+         border-image-source: url(../img/symbols/pink-x.svg);
+         border-image-outset: 0.5;
+         border-image-repeat: round;
+    }
+}

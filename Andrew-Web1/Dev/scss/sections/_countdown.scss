@@ -1,0 +1,43 @@
+/* ================================
+        Countdown css
+================================ */
+#countdown{
+    font-family: 'Orbitron', sans-serif;
+    // font-weight: 400;
+    // font-size: rem-calc(22);
+    // text-align: right;
+
+    h2{
+        font-size: rem-calc(22);
+        font-weight: 400;
+        text-align: right;
+        color: $darkPurple;
+    }
+
+    h3{
+        font-size: rem-calc(22);
+        font-weight: 400;
+        text-align: right;
+        line-height: rem-calc(10);
+        color: $mediumPink;
+    }
+
+    div{
+        text-align: center;
+
+        h1{
+            font-size: rem-calc(27);
+            font-weight: 500;
+            padding-top: 15px;
+        }
+
+        ul{
+            li{
+                display: inline-block;
+                color: $darkPurple;
+                font-weight: 500;
+                font-size: rem-calc(10);
+            }
+        }
+    }
+}
