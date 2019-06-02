@@ -1,3 +1,59 @@
 /* ================================
         Info css
 ================================ */
+.grid-left{
+    display: grid;
+    grid-template-columns: 50% auto 10px;
+    grid-template-areas: "block text .";
+
+    img{
+        grid-area: block;
+        height: 100px;
+    }
+
+    .text{
+        grid-area: text;
+    }
+}
+
+.grid-right{
+    display: grid;
+    grid-template-columns: 10px auto 50%;
+    grid-template-areas: ". text block";
+
+    img{
+        grid-area: block;
+        height: 100px;
+    }
+
+    .text{
+        grid-area: text;
+        text-align: right;
+    }
+}
+
+#info{
+    font-family: 'Rajdhani', sans-serif;
+    color: $darkPurple;
+    background-color: $lightGrey;
+
+    h3{
+        font-size: rem-calc(20);
+        font-weight: 700;
+        margin-bottom: -7px;
+    }
+
+    h1{
+        font-size: rem-calc(30);
+        font-weight: 700;
+        line-height: rem-calc(22);
+        letter-spacing: 2.5px;
+    }
+
+    p{
+        font-family: 'Oswald', sans-serif;
+        color: $black;
+        font-size: rem-calc(15);
+        font-weight: 300;
+    }
+}
