@@ -3,8 +3,9 @@
 ================================ */
 .grid-left{
     display: grid;
-    grid-template-columns: 50% auto 10px;
-    grid-template-areas: "block text .";
+    grid-template-columns: 50%  10px auto 10px;
+    grid-template-areas: "block . text .";
+    padding-bottom: 20px;
 
     img{
         grid-area: block;
@@ -18,8 +19,9 @@
 
 .grid-right{
     display: grid;
-    grid-template-columns: 10px auto 50%;
-    grid-template-areas: ". text block";
+    grid-template-columns: 10px auto 10px 50%;
+    grid-template-areas: ". text . block";
+    padding-bottom: 20px;
 
     img{
         grid-area: block;
@@ -55,5 +57,52 @@
         color: $black;
         font-size: rem-calc(15);
         font-weight: 300;
+    }
+}
+
+.info-flex{
+    display: flex;
+    align-items: center;
+
+    #info-3{
+        background-image: url("../img/info/freeplay.jpg");
+        height: 100px;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #info-1{
+        background-image: url("../img/info/omegathon.jpg");
+        height: 100px;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.info-flex-2{
+    grid-area: block;
+    display: flex;
+    align-items: center;
+
+    #info-2{
+        background-image: url("../img/info/miniatures.jpg");
+        height: 100px;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #info-4{
+        background-image: url("../img/info/alpha.jpg");
+        height: 100px;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }

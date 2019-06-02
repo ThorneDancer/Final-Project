@@ -521,8 +521,9 @@ footer {
 ================================ */
 .grid-left {
   display: grid;
-  grid-template-columns: 50% auto 10px;
-  grid-template-areas: "block text ."; }
+  grid-template-columns: 50%  10px auto 10px;
+  grid-template-areas: "block . text .";
+  padding-bottom: 20px; }
   .grid-left img {
     grid-area: block;
     height: 100px; }
@@ -531,8 +532,9 @@ footer {
 
 .grid-right {
   display: grid;
-  grid-template-columns: 10px auto 50%;
-  grid-template-areas: ". text block"; }
+  grid-template-columns: 10px auto 10px 50%;
+  grid-template-areas: ". text . block";
+  padding-bottom: 20px; }
   .grid-right img {
     grid-area: block;
     height: 100px; }
@@ -558,6 +560,43 @@ footer {
     color: #000;
     font-size: 0.9375rem;
     font-weight: 300; }
+
+.info-flex {
+  display: flex;
+  align-items: center; }
+  .info-flex #info-3 {
+    background-image: url("../img/info/freeplay.jpg");
+    height: 100px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .info-flex #info-1 {
+    background-image: url("../img/info/omegathon.jpg");
+    height: 100px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+
+.info-flex-2 {
+  grid-area: block;
+  display: flex;
+  align-items: center; }
+  .info-flex-2 #info-2 {
+    background-image: url("../img/info/miniatures.jpg");
+    height: 100px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .info-flex-2 #info-4 {
+    background-image: url("../img/info/alpha.jpg");
+    height: 100px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
 
 /* ================================
         Enforcers css
