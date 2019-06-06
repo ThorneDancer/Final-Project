@@ -379,16 +379,18 @@ header {
 footer {
   background-color: #361B3B;
   color: #91499C;
-  text-align: center;
-  padding: 20px 0 10px;
   font-family: 'Rajdhani', sans-serif;
   font-size: 0.75rem;
-  font-weight: 400; }
+  font-weight: 400;
+  padding: 20px 0 10px;
+  text-align: center; }
+  footer a {
+    color: #91499C; }
   footer div {
-    margin: 0 100px 20px;
-    font-size: 1.5rem;
     display: flex;
-    justify-content: space-between; }
+    font-size: 1.5rem;
+    justify-content: space-between;
+    margin: 0 100px 20px; }
 
 /* ================================
         Logo css
@@ -407,16 +409,16 @@ footer {
 #countdown {
   font-family: 'Orbitron', sans-serif; }
   #countdown h2 {
+    color: #361B3B;
     font-size: 1.6875rem;
     font-weight: 400;
-    text-align: right;
-    color: #361B3B; }
+    text-align: right; }
   #countdown h3 {
+    color: #91499C;
     font-size: 1.6875rem;
     font-weight: 400;
-    text-align: right;
     line-height: 0.75rem;
-    color: #91499C; }
+    text-align: right; }
   #countdown div {
     text-align: center; }
     #countdown div h1 {
@@ -429,45 +431,45 @@ footer {
 ================================ */
 #hero {
   background-image: url("../img/map.jpg");
-  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width: 100%;
-  height: 240px; }
+  background-size: cover;
+  height: 240px;
+  width: 100%; }
   #hero #pink {
+    align-items: center;
     background-color: rgba(226, 175, 209, 0.8);
-    width: 100%;
-    height: 240px;
     display: flex;
+    height: 240px;
     justify-content: center;
-    align-items: center; }
+    width: 100%; }
   #hero div h1 {
-    text-align: center;
     color: #fff;
     font-family: 'Oswald', sans-serif;
-    font-weight: 500;
     font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 3px;
     line-height: 1.5625rem;
-    letter-spacing: 3px; }
+    text-align: center; }
   #hero div nav {
     display: flex;
     justify-content: center; }
     #hero div nav a {
-      font-family: 'Orbitron', sans-serif;
-      color: #000;
-      font-weight: 400;
-      font-size: 1rem;
-      padding: 5px 8px;
       background-color: #fff;
-      margin-top: 10px; }
+      color: #000;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 1rem;
+      font-weight: 400;
+      margin-top: 10px;
+      padding: 5px 8px; }
 
 /* ================================
         Explanation css
 ================================ */
 #explanation {
   background-color: #E7E7E7;
-  font-family: 'Oswald', sans-serif;
   display: grid;
+  font-family: 'Oswald', sans-serif;
   grid-template-columns: 10px 85% auto; }
   #explanation h1 {
     font-size: 1.5625rem;
@@ -475,16 +477,16 @@ footer {
     padding: 20px 0; }
   #explanation p {
     font-family: 'Rajdhani', sans-serif;
-    font-weight: 300;
     font-size: 1rem;
+    font-weight: 300;
     padding-bottom: 15px; }
   #explanation #aside {
     background-color: #fff;
     border: 10px solid;
-    border-image-source: url("../img/symbols/border-x.svg");
     border-image-outset: 0.75;
-    border-image-slice: 68;
-    border-image-repeat: round;
+    border-image-repeat: repeat;
+    border-image-slice: 50;
+    border-image-source: url("../img/symbols/border-x.svg");
     margin-bottom: 40px; }
     #explanation #aside p {
       padding: 0; }
@@ -496,20 +498,20 @@ footer {
   background-color: #E7E7E7;
   color: #fff;
   display: grid;
-  grid-template-columns: 25% auto 20px;
-  grid-template-areas: ". aside aside"; }
+  grid-template-areas: ". aside aside";
+  grid-template-columns: 25% auto 20px; }
   #email div {
+    align-items: center;
     background-color: #361B3B;
-    grid-area: aside;
-    font-family: 'Rajdhani', sans-serif;
-    padding: 10px 0 10px 10px;
     display: flex;
+    font-family: 'Rajdhani', sans-serif;
+    grid-area: aside;
     justify-content: space-between;
-    align-items: center; }
+    padding: 10px 0 10px 10px; }
     #email div h1 {
+      color: #91499C;
       font-size: 2.1875rem;
-      font-weight: 700;
-      color: #91499C; }
+      font-weight: 700; }
     #email div h2 {
       font-size: 1.125rem;
       font-weight: 500; }
@@ -521,8 +523,8 @@ footer {
 ================================ */
 .grid-left {
   display: grid;
-  grid-template-columns: 50%  10px auto 10px;
   grid-template-areas: "block . text .";
+  grid-template-columns: 50% 10px auto 10px;
   padding-bottom: 20px; }
   .grid-left img {
     grid-area: block;
@@ -532,8 +534,8 @@ footer {
 
 .grid-right {
   display: grid;
-  grid-template-columns: 10px auto 10px 50%;
   grid-template-areas: ". text . block";
+  grid-template-columns: 10px auto 10px 50%;
   padding-bottom: 20px; }
   .grid-right img {
     grid-area: block;
@@ -543,9 +545,10 @@ footer {
     text-align: right; }
 
 #info {
-  font-family: 'Rajdhani', sans-serif;
+  background-color: #E7E7E7;
   color: #361B3B;
-  background-color: #E7E7E7; }
+  font-family: 'Rajdhani', sans-serif;
+  padding-top: 20px; }
   #info h3 {
     font-size: 1.25rem;
     font-weight: 700;
@@ -553,50 +556,50 @@ footer {
   #info h1 {
     font-size: 1.875rem;
     font-weight: 700;
-    line-height: 1.375rem;
-    letter-spacing: 2.5px; }
+    letter-spacing: 2.5px;
+    line-height: 1.375rem; }
   #info p {
-    font-family: 'Oswald', sans-serif;
     color: #000;
+    font-family: 'Oswald', sans-serif;
     font-size: 0.9375rem;
     font-weight: 300; }
 
 .info-flex {
-  display: flex;
-  align-items: center; }
+  align-items: center;
+  display: flex; }
   .info-flex #info-3 {
     background-image: url("../img/info/freeplay.jpg");
-    height: 100px;
-    width: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; }
+    background-size: cover;
+    height: 100px;
+    width: 100%; }
   .info-flex #info-1 {
     background-image: url("../img/info/omegathon.jpg");
-    height: 100px;
-    width: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; }
+    background-size: cover;
+    height: 100px;
+    width: 100%; }
 
 .info-flex-2 {
-  grid-area: block;
+  align-items: center;
   display: flex;
-  align-items: center; }
+  grid-area: block; }
   .info-flex-2 #info-2 {
     background-image: url("../img/info/miniatures.jpg");
-    height: 100px;
-    width: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; }
+    background-size: cover;
+    height: 100px;
+    width: 100%; }
   .info-flex-2 #info-4 {
     background-image: url("../img/info/alpha.jpg");
-    height: 100px;
-    width: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; }
+    background-size: cover;
+    height: 100px;
+    width: 100%; }
 
 /* ================================
         Enforcers css
@@ -620,15 +623,18 @@ footer {
 
 #left-flavor {
   background-image: url("../img/symbols/left-flavor.svg");
-  height: 50px;
   background-repeat: no-repeat;
-  margin: -30px 0 10px; }
+  height: 50px;
+  margin: -50px 0 10px; }
 
 #p2 {
+  display: flex;
   font-family: 'Oswald', sans-serif;
   font-size: 1rem;
   font-weight: 300;
+  justify-content: flex-end;
   margin-bottom: 20px;
+  padding-left: 25px;
   text-align: right; }
 
 /* ================================
@@ -636,56 +642,56 @@ footer {
 ================================ */
 #gallery {
   background-color: #E7E7E7;
-  padding: 10px;
   display: grid;
+  grid-gap: 10px;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(4, 1fr);
-  grid-gap: 10px; }
+  padding: 10px; }
   #gallery .gallery-image {
-    width: 100%;
+    display: block;
     height: 100%;
     object-fit: cover;
-    display: block; }
+    width: 100%; }
   #gallery #img-1 {
-    grid-column-start: 1;
     grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 2; }
+    grid-column-start: 1;
+    grid-row-end: 2;
+    grid-row-start: 1; }
   #gallery #img-2 {
-    grid-column-start: 2;
     grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 2; }
+    grid-column-start: 2;
+    grid-row-end: 2;
+    grid-row-start: 1; }
   #gallery #img-3 {
-    grid-column-start: 1;
     grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 3; }
+    grid-column-start: 1;
+    grid-row-end: 3;
+    grid-row-start: 2; }
   #gallery #img-4 {
-    grid-column-start: 2;
     grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3; }
+    grid-column-start: 2;
+    grid-row-end: 3;
+    grid-row-start: 2; }
   #gallery #img-5 {
-    grid-column-start: 1;
     grid-column-end: 2;
-    grid-row-start: 3;
-    grid-row-end: 4; }
+    grid-column-start: 1;
+    grid-row-end: 4;
+    grid-row-start: 3; }
   #gallery #img-6 {
-    grid-column-start: 2;
     grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-end: 5; }
+    grid-column-start: 2;
+    grid-row-end: 5;
+    grid-row-start: 3; }
 
 #gallery-nav {
-  display: flex;
   align-items: center;
-  margin: -110px 0 63px 25px; }
+  display: flex;
+  margin: -140px 0 88px 35px; }
   #gallery-nav #view {
+    background-color: #fff;
+    border-radius: 22px;
     color: #000;
     font-family: 'Orbitron', sans-serif;
     font-size: 0.9375rem;
     font-weight: 700;
-    background-color: #fff;
-    padding: 15px 20px;
-    border-radius: 22px; }
+    padding: 20px 20px 15px; }

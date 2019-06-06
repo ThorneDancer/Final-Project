@@ -1,36 +1,36 @@
 /* ================================
         Explanation css
 ================================ */
-#explanation{
+#explanation {
     background-color: $lightGrey;
-    font-family: 'Oswald', sans-serif;
     display: grid;
+    font-family: 'Oswald', sans-serif;
     grid-template-columns: 10px 85% auto;
 
-    h1{
+    h1 {
         font-size: rem-calc(25);
         font-weight: 500;
         padding: 20px 0;
     }
 
-    p{
+    p {
         font-family: 'Rajdhani', sans-serif;
-        font-weight: 300;
         font-size: rem-calc(16);
+        font-weight: 300;
         padding-bottom: 15px;
     }
 
-    #aside{
-         background-color: $white;
-         border: 10px solid;
-         border-image-source: url("../img/symbols/border-x.svg");
-         border-image-outset: 0.75;
-         border-image-slice: 68;
-         border-image-repeat: round;
-         margin-bottom: 40px;
+    #aside {
+        background-color: $white;
+        border: 10px solid;
+        border-image-outset: 0.75;
+        border-image-repeat: repeat;
+        border-image-slice: 50;
+        border-image-source: url("../img/symbols/border-x.svg");
+        margin-bottom: 40px;
 
-         p{
-             padding: 0;
-         }
+        p {
+            padding: 0;
+        }
     }
 }

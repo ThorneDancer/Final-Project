@@ -1,16 +1,15 @@
 /* ================================
         Enforcers css
 ================================ */
-#enforcers{
-    
-    h1{
+#enforcers {
+    h1 {
         font-family: 'Rajdhani', sans-serif;
         font-size: rem-calc(30);
         font-weight: 600;
         margin: 30px 0 10px;
     }
 
-    p{
+    p {
         font-family: 'Oswald', sans-serif;
         font-size: rem-calc(16);
         font-weight: 300;
@@ -18,23 +17,26 @@
     }
 }
 
-#flavor-flex{
+#flavor-flex {
     display: flex;
     justify-content: flex-end;
     margin: 10px 0 -65px;
 }
 
-#left-flavor{
+#left-flavor {
     background-image: url("../img/symbols/left-flavor.svg");
-    height: 50px;
     background-repeat: no-repeat;
-    margin: -30px 0 10px;
+    height: 50px;
+    margin: -50px 0 10px;
 }
 
-#p2{
+#p2 {
+    display: flex;
     font-family: 'Oswald', sans-serif;
     font-size: rem-calc(16);
     font-weight: 300;
+    justify-content: flex-end;
     margin-bottom: 20px;
+    padding-left: 25px;
     text-align: right;
 }

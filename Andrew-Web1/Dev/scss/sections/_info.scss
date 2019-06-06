@@ -1,108 +1,109 @@
 /* ================================
         Info css
 ================================ */
-.grid-left{
+.grid-left {
     display: grid;
-    grid-template-columns: 50%  10px auto 10px;
     grid-template-areas: "block . text .";
+    grid-template-columns: 50% 10px auto 10px;
     padding-bottom: 20px;
 
-    img{
+    img {
         grid-area: block;
         height: 100px;
     }
 
-    .text{
+    .text {
         grid-area: text;
     }
 }
 
-.grid-right{
+.grid-right {
     display: grid;
-    grid-template-columns: 10px auto 10px 50%;
     grid-template-areas: ". text . block";
+    grid-template-columns: 10px auto 10px 50%;
     padding-bottom: 20px;
 
-    img{
+    img {
         grid-area: block;
         height: 100px;
     }
 
-    .text{
+    .text {
         grid-area: text;
         text-align: right;
     }
 }
 
-#info{
-    font-family: 'Rajdhani', sans-serif;
-    color: $darkPurple;
+#info {
     background-color: $lightGrey;
+    color: $darkPurple;
+    font-family: 'Rajdhani', sans-serif;
+    padding-top: 20px;
 
-    h3{
+    h3 {
         font-size: rem-calc(20);
         font-weight: 700;
         margin-bottom: -7px;
     }
 
-    h1{
+    h1 {
         font-size: rem-calc(30);
         font-weight: 700;
-        line-height: rem-calc(22);
         letter-spacing: 2.5px;
+        line-height: rem-calc(22);
     }
 
-    p{
-        font-family: 'Oswald', sans-serif;
+    p {
         color: $black;
+        font-family: 'Oswald', sans-serif;
         font-size: rem-calc(15);
         font-weight: 300;
     }
 }
 
-.info-flex{
-    display: flex;
+.info-flex {
     align-items: center;
+    display: flex;
 
-    #info-3{
+    #info-3 {
         background-image: url("../img/info/freeplay.jpg");
-        height: 100px;
-        width: 100%;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        height: 100px;
+        width: 100%;
     }
 
-    #info-1{
+    #info-1 {
         background-image: url("../img/info/omegathon.jpg");
-        height: 100px;
-        width: 100%;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        height: 100px;
+        width: 100%;
     }
 }
 
-.info-flex-2{
-    grid-area: block;
-    display: flex;
+.info-flex-2 {
     align-items: center;
+    display: flex;
+    grid-area: block;
 
-    #info-2{
+    #info-2 {
         background-image: url("../img/info/miniatures.jpg");
-        height: 100px;
-        width: 100%;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        height: 100px;
+        width: 100%;
     }
 
-    #info-4{
+    #info-4 {
         background-image: url("../img/info/alpha.jpg");
-        height: 100px;
-        width: 100%;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        height: 100px;
+        width: 100%;
     }
 }

@@ -1,34 +1,34 @@
 /* ================================
         Aside css
 ================================ */
-#email{
+#email {
     background-color: $lightGrey;
     color: $white;
     display: grid;
-    grid-template-columns: 25% auto 20px;
     grid-template-areas: ". aside aside";
+    grid-template-columns: 25% auto 20px;
 
-    div{
-        background-color: $darkPurple;
-        grid-area: aside;
-        font-family: 'Rajdhani', sans-serif;
-        padding: 10px 0 10px 10px;
-        display: flex;
-        justify-content: space-between;
+    div {
         align-items: center;
+        background-color: $darkPurple;
+        display: flex;
+        font-family: 'Rajdhani', sans-serif;
+        grid-area: aside;
+        justify-content: space-between;
+        padding: 10px 0 10px 10px;
 
-        h1{
+        h1 {
+            color: $mediumPink;
             font-size: rem-calc(35);
             font-weight: 700;
-            color: $mediumPink;
         }
 
-        h2{
+        h2 {
             font-size: rem-calc(18);
             font-weight: 500;
         }
 
-        nav{
+        nav {
             padding-right: 20px;
         }
     }
